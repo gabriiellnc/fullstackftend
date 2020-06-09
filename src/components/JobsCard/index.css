@@ -1,0 +1,36 @@
+.main-container{
+    display:flex;
+    justify-content: flex-start; /*alinhar verticalmente no topo*/
+
+}
+
+.jobs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*espaço nas laterais*/
+    padding: 10px;
+    align-items: flex-start;
+    width: 500px;
+    height: 100px;
+    background: #82a0aa;
+    border-radius: 8px; /*arredondar bordas*/
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobs-container img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+.jobs-container span {
+    color: #ffffff;
+}
+
+.jobs-container p {
+    color: #ffffff;
+}
